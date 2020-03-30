@@ -1,0 +1,151 @@
+/* CSS Document */
+/*browser space reset*/
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+/* fix width of content*/
+.content {
+	width: 950px;
+	margin: auto;
+}
+
+	
+
+/*header*/
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+header {
+	background: #99C19B
+}
+
+.container::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.logo {
+	float:left;
+	padding: 10px 0;
+	padding-left: 40px;
+}
+
+nav {
+	float:right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 25px;
+	color: #797979;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	text-transform: uppercase;
+	
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	color: #ADADAD;
+}
+
+/*Home page titles*/
+.Home-Header {
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+h1 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 0.3em;
+	font-size: 3em;
+	color: #fff;
+	text-align: center;
+}
+h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 2em;
+	color: #000000;
+	text-align: center;
+}
+
+h3 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 0.3em;
+	font-size: 1.2em;
+	color: #797979;
+	text-align: center;
+}
+p {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 1.2em;
+	font-weight: 150;
+	color: #D5D5D5;
+}
+
+.pinhole {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+	margin-top: 10px;
+	margin-bottom: 80px;
+}
+body {
+	background-color: #adadad;
+}
+
+/*gallery Grid*/
+
+.content .gallery {
+	display: grid;
+	height: 100%;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+
+}
+
+
+.img-box {
+	background: #F5DA05;
+	max-width: 300px;
+	max-height: 200vh;
+
+}
+
+
+/*footer*/
+.footer {
+	background: #000;
+	padding: 40px 0 40px 0;
+	margin-top: 50px;
+}
